@@ -10,3 +10,7 @@
     - name: Install tmux terminal multiplexer
       apt: pkg=tmux
       become: yes
+
+    - name: Install Storj Daemon
+      command: snap install storjshare
+      become: yes
