@@ -62,7 +62,3 @@ ANSIBLE_HOST_KEY_CHECKING=False ansible-playbook --private-key <path-to-private-
 ```
 
 ## Running Miner
-
-```
-./cpuminer-opt/cpuminer -a scrypt:1048576 -o stratum+tcp://eu.poolinat0r.com:4443 -u Weblogin.WorkerName -p WorkerPassword
-```
