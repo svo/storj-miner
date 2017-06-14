@@ -16,3 +16,6 @@
 [submodule "ansible/roles/environment-configuration-management"]
 	path = ansible/roles/environment-configuration-management
 	url = git@github.com:svo/environment-configuration-management.git
+[submodule "ansible/roles/environment-nodejs"]
+	path = ansible/roles/environment-nodejs
+	url = git@github.com:svo/environment-nodejs.git

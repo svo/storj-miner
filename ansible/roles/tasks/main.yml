@@ -11,6 +11,14 @@
       apt: pkg=tmux
       become: yes
 
+    - name: Install required packages
+      apt: pkg={{ item }}
+      become: yes
+      with_items:
+      - git
+      - python
+      - build-essential
+
     - name: Install Storj Daemon
-      command: snap install storjshare
+      npm: name=storjshare-daemon global=yes
       become: yes
